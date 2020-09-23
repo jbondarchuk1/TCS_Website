@@ -1,0 +1,23 @@
+{
+  "name": "tcstemplate",
+  "version": "1.0.0",
+  "description": "TCS Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Bondarchuk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swup": "^2.0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbondarchuk1/TCS_Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jbondarchuk1/TCS_Website/issues"
+  },
+  "homepage": "https://github.com/jbondarchuk1/TCS_Website#readme"
+}
