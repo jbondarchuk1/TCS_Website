@@ -176,6 +176,32 @@ main > div {
 	text-align: center;
 }
 
+#software {
+	grid-template-columns: auto;
+    grid-template-areas: 
+        "intro"
+		"tech"
+		"non-tech"
+    ;
+}
+#software > div {
+	width: 550px;
+	height: auto;
+	padding: inherit 4em;
+	margin-left: auto;
+	margin-right: auto;
+}
+#intro {
+    grid-area: intro;
+}
+#tech {
+    grid-area: tech;
+}
+#non-tech {
+    grid-area: non-tech;
+}
+
+
 .image {
 	display: inline-block;
 	text-align: center;
@@ -231,6 +257,12 @@ footer {
 
 	#img2 {
 		grid-area: img2;
+	}
+	
+	#software ul {
+		display: inline-block;
+		margin: 0 auto;
+		text-align: left;
 	}
 }
 
@@ -323,5 +355,10 @@ footer {
 
 	.image {
 		height: 320px;
+	}
+
+	#software > div {
+		width: auto;
+		max-width: 490px;
 	}
 }
