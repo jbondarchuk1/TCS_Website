@@ -2,4 +2,4 @@ const express= require ('express');
 const path= require('path');
 const app = express();
 
-app.use(express.static(path.join(__dirname, 'public'))).listen(3000);
+app.use(express.static(path.join(__dirname, 'edits'))).listen(3000);
